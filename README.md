@@ -19,20 +19,25 @@ JSON Server (for backend)
 CSS
 
 ## Installation
+
 *** Clone the repository: ***
 
 git clone (https://github.com/wanja-juma/react-hooks-plantshop-cr-vite.git)
 
 *** Navigate into the project folder: ***
+
 cd plant-shop-app
 
 *** Install dependencies: ***
+
 npm install
 
 *** Start the backend server (JSON Server): ***
+
 npx json-server --watch db.json --port 6001
 
 *** Start the React app: ***
+
 npm run dev
 
 ### How It Works
@@ -85,6 +90,7 @@ src/
 ├── index.css
 
 *** Display Image ***
+
 src\assets\Screenshot 2026-05-13 143905.png
 
 ### Future Improvements
