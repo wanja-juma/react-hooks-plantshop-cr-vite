@@ -20,13 +20,18 @@ CSS
 
 ## Installation
 *** Clone the repository: ***
+
 git clone (https://github.com/wanja-juma/react-hooks-plantshop-cr-vite.git)
+
 *** Navigate into the project folder: ***
 cd plant-shop-app
+
 *** Install dependencies: ***
 npm install
+
 *** Start the backend server (JSON Server): ***
 npx json-server --watch db.json --port 6001
+
 *** Start the React app: ***
 npm run dev
 
@@ -38,8 +43,6 @@ On page load, the app fetches plants from:
 http://localhost:5173/plants
 
 and stores them in state.
-
-2. Search Plants
 
 Users can type into the search bar to filter plants by name:
 
@@ -68,6 +71,7 @@ Each plant card shows:
 * Stock status toggle (In Stock / Out of Stock)
 
 ### Project Structure
+
 src/
 ├── components/
 │   ├── App.jsx
@@ -92,4 +96,5 @@ Improve UI styling
 
 ### Author
 Ruth Wanja Juma
+
 Developed as a React learning project.
